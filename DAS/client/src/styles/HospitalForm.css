@@ -1,0 +1,82 @@
+/* HospitalForm.css */
+
+form {
+  max-width: 400px;
+  margin: auto;
+  /* margin-top: 100px; */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+select, input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.beds-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.bed {
+  width: 63px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.lula.occupied {
+  background-color: rgb(255, 70, 70);
+  border-radius: 25%;
+  width: 150px;
+  
+}
+.lula.available {
+  background-color: rgb(78, 0, 233);
+  border-radius: 25%;
+  width: 150px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+
+.formbula{
+  max-width: 800px;
+  width: 100%;
+  padding: 10px;
+
+}
+
+
+.bula{
+  display: flex;
+}

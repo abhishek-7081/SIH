@@ -1,0 +1,160 @@
+.main {
+  padding: 10px;
+  height: 100vh;
+}
+.layout {
+  display: flex;
+}
+
+.sidebar {
+  min-height: 100%;
+  width: 300px;
+  border-radius: 5px;
+  background-color: rgba(0, 101, 74, 0.751);
+  box-shadow: 0 0 2px gray;
+  margin-right: 20px;
+  color: white;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  height: 10vh;
+
+  margin-bottom: 20px;
+  box-shadow: 0 0 2px gray;
+  /* background-color: white; */
+  background-color: rgba(71, 169, 143, 0.751);
+}
+.body {
+  height: 85vh;
+  /* width: auto; */
+  margin-bottom: 20px;
+  box-shadow: 0 0 2px gray;
+  background-color: white;
+  /* background-image: url('/client/public/bg.jpg'); */
+  background-image: url('../bg.jpg');
+}
+/* } */
+.logo h6 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 20px 0px;
+}
+.menu {
+  margin-top: 50px;
+}
+.menu-item {
+  margin-top: 30px;
+}
+.menu-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.menu-item i {
+  font-size: 1.2rem;
+  margin: 0 15px;
+}
+.active {
+  background-color: white;
+  padding: 10px;
+}
+.active a,
+.active i {
+  color: rgb(51, 1, 1);
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  justify-content: flex-end;
+  margin: 0 15px;
+}
+
+.header-content i {
+  margin-right: 20px;
+  font-size: 1.2rem;
+}
+.header-content a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: blue;
+  margin: 0 10px;
+  text-transform: uppercase;
+}
+
+
+
+
+/* css for apply doctr */
+.bmall-div {
+  padding: 10px;
+  width:100px;
+  background-color: #146ce9; /* Light gray background */
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+   /* White text color */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Primary button color (Bootstrap default) */
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  border-color: #003369;
+}
+
+.ola{
+  display: flex;
+  justify-content: center;
+}
+.hula{
+  margin: 20px;
+  padding: 15px;
+
+}
+
+
+
+/* profile */
+
+.profile-page-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-details {
+  margin-bottom: 20px;
+}
+
+.profile-details h2,
+.profile-details p {
+  margin: 10px 0;
+}
+
+.notification-badge {
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.profile-actions {
+  text-align: center;
+}
+
+.profile-actions .btn {
+  margin-top: 20px;
+}
+
+/*  */
